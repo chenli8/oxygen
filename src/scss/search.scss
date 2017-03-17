@@ -1,0 +1,58 @@
+.search-wrap{
+      width:100%;
+      background:#f5f6f7;
+      .search-view{
+            width:100%;
+            .search-nav{
+                  width:100%;
+                  display:-webkit-box;
+                  -webkit-box-align:center;
+                  -webkit-box-pack:center;
+                  height:0.8rem;     
+                  border-bottom: solid 1px #ccc;    
+                  a{
+                      -webkit-box-flex:1;
+                      display:block;
+                        line-height: 0.8rem;
+                      height:0.8rem;
+                      text-align:center;
+                      box-sizing: border-box;
+                      color:#404040;
+                      &.on{
+                          border-bottom:1px solid #5fc2a7;
+                          color:#5fc2a7;
+                      }
+                  }
+            }
+      }
+      .search-header-bar{
+           width:100%;
+            padding:0.25rem 0.15rem  0   0.15rem;
+             box-sizing: border-box;
+           display:-webkit-box;
+          
+           
+           //line-height:0.9rem;
+           .search-input{
+                width:87%;
+                height:0.5rem;
+                display:block;
+                margin-right: 0.3rem;
+                border-radius:7px;
+                border:none;
+                color:#5fc2a7;
+                padding-left:0.6rem;
+                box-sizing: border-box;
+                letter-spacing: 0.08rem;
+                background: #fff url(../img/images/fang_03.jpg)  no-repeat     0.2rem   ;
+                background-size:0.24rem 0.26rem;
+                  
+           }
+           .cancel{
+                 color:#ccc;
+                  display:block;
+                  font-size:0.26rem;
+                      line-height: 0.5rem;
+           }
+      }
+}

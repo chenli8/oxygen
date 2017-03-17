@@ -1,0 +1,48 @@
+.class_cont {
+  width: 100%;
+  height: 3.15rem;
+  box-sizing: border-box;
+  padding: 0.1rem; }
+  .class_cont dt {
+    width: 2.43rem;
+    height: 2.43rem;
+    border: 1px solid #ccc;
+    float: right; }
+    .class_cont dt img {
+      width: 2.43rem;
+      height: 2.43rem; }
+  .class_cont dd {
+    width: 3.43rem;
+    float: left; }
+    .class_cont dd p:nth-of-type(1) {
+      line-height: 0.42rem;
+      margin-bottom: 0.12rem; }
+    .class_cont dd p:nth-of-type(2) {
+      margin-top: 0.43rem; }
+    .class_cont dd p:nth-of-type(3) {
+      font-size: 0.27rem;
+      color: #607e56; }
+      .class_cont dd p:nth-of-type(3) span {
+        font-size: 0.17rem;
+        color: #d2d4da;
+        text-decoration: line-through;
+        margin-left: 0.2rem; }
+    .class_cont dd #sale_mark {
+      width: 1.7rem;
+      height: 0.53rem;
+      border: 1px solid #f2f4f6;
+      line-height: 0.53rem;
+      font-size: medium;
+      color: #000;
+      text-align: center; }
+
+.sale_list {
+  height: 0.82rem;
+  line-height: 0.82rem;
+  width: 100%;
+  border-top: 1px solid #e9eaed;
+  color: #819979;
+  text-align: center;
+  font-size: 0.3rem; }
+
+/*# sourceMappingURL=sale.css.map */

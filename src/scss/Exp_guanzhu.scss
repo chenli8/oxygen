@@ -1,0 +1,243 @@
+.guanzhu-wrap{
+	width:100%;
+	height:100%;
+	.guanzhu-content{
+		width:100%;
+		padding-top:0.84rem;
+		.guanzhu-content-top{
+			width:100%;
+			background:#fff;
+			display:-webkit-flex;
+			border-bottom:1px solid #EDEEF0;
+			padding-bottom:0.2rem;
+			dl{
+				width:60%;
+				padding:0.2rem;
+				dt{
+					width:0.82rem;
+					height:0.82rem;
+					img{
+						width:100%;
+					}
+				}
+				dd{
+					b{
+						display:block;
+						color:#36363C;
+						font-weight:normal;
+						line-height:0.6rem;
+					}
+					em{
+						display:block;
+						color:#7F7F89;
+						margin-bottom:0.26rem;
+					}
+					span{
+						background:#ECEFF1;
+						padding:0.13rem 0.8rem;
+						color:#537347;
+						border-radius:0.05rem;
+					}
+					i{
+						background:#ECEFF1;
+						padding:0.13rem 0.4rem;
+						color:#537347;
+						border-radius:0.05rem;
+					}
+				}
+			}
+			a{
+				-webkit-flex:1;
+				color:#3F3F46;
+				padding:0.2rem;
+				span{
+					display:block;
+				}
+				em{
+					display:block;
+					color:#7D7D82;
+				}
+			}
+		}
+		#swiper-container11{
+			background:#fff;
+		}
+		#swiper-container11 .swiper-slide{
+			line-height:4 !important;
+			color:#BBBBC1 !important;
+			font-size:14px !important;
+			border-bottom:2px solid #F4F6F5;
+			text-align:center;
+			}
+			
+	    #swiper-container11 .active-nav {
+	        border-bottom:2px solid teal;
+	        color:#4B4B51 !important;
+	    }
+	   	.swipers7{
+				width:100%;
+				//padding-left:0.2rem;
+				box-sizing:border-box;
+				background:#fff;
+				.swiper-slide{
+					width:40%;
+					img{
+						width:100%;
+					}
+				}
+			}	
+		}
+		.swipers12{
+			//padding:0 0.15rem;
+			box-sizing:border-box;
+			.swiper-slide{
+				box-sizing:border-box;
+
+				 .quanbu{
+					border-top:1px solid #F3F7F6;
+					margin-top:0.15rem;
+					padding:0 0.15rem;
+
+					dl{
+						width:100%;
+						display:-webkit-flex;
+						padding-top:0.3rem;
+						padding-bottom:0.3rem;
+						background:#fff;
+						dt{
+							width:0.8rem;
+							height:0.8rem;
+							margin-right:0.3rem;
+							img{
+								width:100%
+							}
+						}
+						dd{
+							-webkit-flex:1;
+							line-height:0.4rem;
+							h6{
+								font-weight:normal;
+								color:#808978;
+							}
+							span{
+								color:#BBBABF;
+							}
+						}
+				}
+				p{
+					text-align:left;
+					line-height:0.5rem;
+					color:#7F7E83;
+					padding-left:0.3rem;
+					background:#fff;
+					&.eye{
+						line-height:0.6rem;
+						border-top:1px solid #F1F1F1;
+						font-weight:normal;
+						border-bottom:0.13rem solid #F2F3F5;
+						a{
+							margin-right:0.5rem;
+							color:#666;
+							i{
+								font-size:0.3rem;
+								color:#C0C0C8;
+								margin-right:0.2rem;
+							}
+						} 
+						
+					}
+				}
+		
+			}
+			&:nth-child(2){
+				.guanzhiu-tab2{
+					padding:2.05rem 2.28rem;
+					p{
+						line-height:0.65rem;
+						color:#9F9F9F;
+						text-align:center;
+						font-size:0.2rem;
+					}
+				}
+			}
+			&:nth-child(3){
+				
+				section{
+					background:#fff;
+					border-radius:0.05rem;
+					margin-top:0.2rem;
+					h6{
+						font-size:0.28rem;
+						line-height:0.7rem;
+						font-weight:normal;
+						padding:0 0.2rem;
+						span{
+							background:#C8E9E0;
+							color:#5A6360;
+						}
+					}
+					p{
+						font-size:0.18rem;
+						line-height:0.4rem;
+						color:#ADADB5;
+						padding:0 0.2rem;
+						span{
+							padding-right:0.2rem;
+							&:nth-child(2){
+								padding-left:0.2rem;
+							}
+						}
+					}
+					.tucao{
+						border-top:1px solid #E8E8EA;
+						margin-top:0.2rem;
+						padding:0 0.2rem;
+						dl{
+							padding:0.2rem 0.1rem;
+							display:-webkit-flex;
+							dt{
+								width:0.49rem;
+								height:0.48rem;
+								margin-right:0.5rem;
+								img{	
+									width:100%;
+								}
+							}
+							dd{
+								-webkit-flex:1;
+								display:-webkit-flex;
+								a{
+									-webkit-flex:1;
+									text-align:right;
+									margin-right:0.5rem;
+									b{
+										font-weight:normal;
+										color:#878894;
+										border:1px solid #E8E8EA;
+										font-szie:0.12rem;
+										padding:0.12rem 0.14rem;
+										border-radius:5px;
+										i{
+											color:#65C4AA;
+											padding-right:0.1rem;
+										}
+									}
+								}
+							}
+						}
+						ul{
+							li{
+								color:#616166;
+								line-height:0.45rem;
+								&:nth-child(2n+1){
+									padding-top:0.2rem;
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}	
+	}
+}

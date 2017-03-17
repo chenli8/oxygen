@@ -1,0 +1,17 @@
+<div class="recomContent">
+	<header>
+			<b class="icon" ng-click="back()">&#xe605;</b>
+			<span class="icon" >&#xe633;</span><span class="icon" ui-sref="car">&#xe662;</span>
+	</header>
+	<div class="recomain">
+		<p>{{title}}</p>
+		<p>{{content}}</p>
+		<div class="recoPic">
+			<div class="shof_one" ng-repeat="i in pics">
+				<img ng-src="{{i.img}}" />
+				<p>{{i.title}}</p>
+				<p>{{i.price}}</p>
+			</div>
+		</div>
+	</div>
+</div>

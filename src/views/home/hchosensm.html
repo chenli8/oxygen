@@ -1,0 +1,101 @@
+<div class="hchosensm">
+    <header class="expbanner-header-bar" ng-include="'./src/views/home/h-header.html'"></header>
+    <div class="hb-main-box">
+        <h2>{{samllboxData.title}}</h2>
+        <p class="hb-scan">14264 浏览</p>
+        <div class="clear"></div>
+        <div class="hb-descripe">
+            {{samllboxData.txt}}
+        </div>
+        <div class="hb-goods-list">
+            <dl ng-repeat="item in samllboxData.goodslist">
+                <dt>
+                    <img ng-src="./src/images/shouye/box/images/{{item.src}}" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">{{item.name}}</p>
+                    <p class="hb-goods-pri">
+                        ￥{{item.nowpri}}<span>￥{{item.oldpri}}</span>
+                    </p>
+                </dd>
+            </dl>
+            <!--<dl><dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_05.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 美白驻颜 身体磨砂膏 200g</p>
+                    <p class="hb-goods-pri">
+                        ￥119<span>￥156</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_09.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 盈柔美白 液体美肤皂 沐浴露</p>
+                    <p class="hb-goods-pri">
+                        ￥59<span>￥84</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_10.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 盈柔美白 液体美肤皂 沐浴露</p>
+                    <p class="hb-goods-pri">
+                        ￥59<span>￥84</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_03.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 盈柔美白 液体美肤皂 沐浴露</p>
+                    <p class="hb-goods-pri">
+                        ￥59<span>￥84</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_05.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 美白驻颜 身体磨砂膏 200g</p>
+                    <p class="hb-goods-pri">
+                        ￥119<span>￥156</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_09.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 盈柔美白 液体美肤皂 沐浴露</p>
+                    <p class="hb-goods-pri">
+                        ￥59<span>￥84</span>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./src/images/shouye/box/images/smbox-inner_10.jpg" alt="">
+                </dt>
+                <dd>
+                    <p class="hb-goods-name">Tokyo Love 盈柔美白 液体美肤皂 沐浴露</p>
+                    <p class="hb-goods-pri">
+                        ￥59<span>￥84</span>
+                    </p>
+                </dd>
+            </dl>-->
+        </div>
+
+    </div>
+</div>

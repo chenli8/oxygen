@@ -1,0 +1,20 @@
+<div class="alllistcontent">
+	<header>
+			<b class="icon" ng-click="back()">&#xe605;</b>
+			<p>全部商品频道</p>
+	</header>
+	<div class="allmain">
+		<div class='bottom_item swiper-container list-swiper' ng-repeat='i in change' ui-sref="recommend({id:i.id})">
+	            <h1>{{i.title}}</h1>
+	            <p>{{i.content}}</p>
+	            <div class='swiper-wrapper item_cont'>
+		            <div class='swiper-slide' ng-repeat='item in i.pic'>
+			            <img ng-src='{{item.img}}' />
+			            <p>{{item.price}}</p>
+		            </div>
+	            </div>
+	            <p>{{i.num}}</p>
+            </div>
+	</div>
+	
+</div>

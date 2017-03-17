@@ -1,0 +1,36 @@
+<ui-view>
+	
+
+<div class="login">
+	<div class="login-header">
+		<a href="" ui-sref="Person.perLogin.config">&#xf013e;</a>
+		<h2>W.Ms <b>&#xe63c;</b></h2>
+		<a href="">&#xe607;</a>
+	</div>
+	<div class="login-content">
+		<dl class="login-dl">
+			<dt><img src="src/images/login_head.jpg" alt=""></dt>
+			<dd>
+				<a href=""><span>0</span>关注</a>
+				<a href=""><span>0</span>粉丝</a>
+			</dd>
+		</dl>
+		<ul class="login-ul">
+			<li ui-sref="Person.perLogin.order">我的订单<span>0 <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.fund">我的内衣基金<span>￥0.00 <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.cash">我的代金券<span>0 <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.request">邀请有礼<span><i>各得50元代金券</i> <b>&#xe620;</b></span></li>
+		</ul>
+		<ul class="login-ul1">
+			<li ui-sref="Person.perLogin.service">联系客服<span> <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.collection">我的收藏<span>0 <b>&#xe620;</b></span></li>
+		</ul>
+		<ul class="login-ul2">
+			<li ui-sref="Person.perLogin.test">我的体检报告<span>0 <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.info">我的个人信息<span><i><small>&#xe67a;</small>完善个人信息</i> <b>&#xe620;</b></span></li>
+			<li ui-sref="Person.perLogin.topic">我的话题<span> <b>&#xe620;</b></span></li>
+		</ul>
+	</div>
+	<footer ng-include="'src/views/footer.html'"></footer>
+</div>
+</ui-view>

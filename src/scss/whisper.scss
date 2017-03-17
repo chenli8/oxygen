@@ -1,0 +1,66 @@
+.whisper-wrap{
+    width:100%;
+    .whisper-view{
+         width:100%;
+         padding-top: 0.84rem;
+         background:#f3f4f5;
+         .all-list-box{
+                 width:96%;
+                 margin:auto;
+                 .all-list-item{
+                   width:100%;
+                   margin-top:0.2rem;
+                   background:#fff;
+                   border-radius:5px;
+                   dl{
+                     width:100%;
+                     dd{
+                        padding:0.28rem 0.2rem  0 0.2rem;
+                        box-sizing:border-box;
+                        line-height:0.48rem;
+                        .user-point{
+                          width:100%;
+                          border-top:1px #ccc solid;
+                          padding:0.2rem;
+                          box-sizing:border-box;
+                           
+                          a{
+                            color:#999;
+                            margin-right:0.65rem;
+                            span{
+                                margin-left:0.1rem;
+                            }
+                          }
+                        }
+                        .user-review{
+                           margin-bottom:0.1rem;
+                          .whisper{
+                              color:#999;
+                            }
+                          p{
+                            .user-name{
+                              color:#9baf95;
+                            }
+                            
+
+                          }
+                        }
+                     }
+                     dt{
+                       width:100%;
+                       img{
+                         width:100%;
+                         display:block;
+                       }
+                     }
+                   }
+                 }}
+         .whisper-banner{
+             width:100%;
+             img{
+                 display:block;
+                 width:100%;
+             }
+         }
+    }
+}

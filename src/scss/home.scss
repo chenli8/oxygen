@@ -1,0 +1,340 @@
+         @font-face {
+             font-family: 'iconfont';
+             src: url('../font/font_home/iconfont.eot');
+             src: url('../font/font_home/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/font_home/iconfont.woff') format('woff'), url('../font/font_home/iconfont.ttf') format('truetype'), url('../font/font_home/iconfont.svg#iconfont') format('svg');
+         }
+         
+         .iconfont {
+             font-family: "iconfont" !important;
+             font-size: 16px;
+             font-style: normal;
+             -webkit-font-smoothing: antialiased;
+             -webkit-text-stroke-width: 0.2px;
+             -moz-osx-font-smoothing: grayscale;
+         }
+         
+         .home-wraper {
+             /*顶部*/
+             width: 100%;
+             display: -webkit-box;
+             -webkit-box-orient: vertical;
+             .home-header-bar {
+                 height: 0.7rem;
+                 border: none;
+                 position: inherit;
+                 h3 {
+                     left: 0.92rem;
+                     right: 0.92rem;
+                     margin-top: 0.1rem;
+                     div {
+                         width: 100%;
+                         height: 0.5rem;
+                         line-height: 0.5rem;
+                         border: none;
+                         color: #aaa9ae;
+                         text-align: center;
+                         border-radius: 5px;
+                         background: #fff url(../images/shouye/search_03.jpg) no-repeat 0.85rem 0.13rem;
+                         background-size: 0.24rem;
+                     }
+                 }
+                 /*h3 {
+                     left: 0.92rem;
+                     right: 0.92rem;
+                     margin-top: 0.2rem;
+                     background: red;
+                     input {
+                         width: 100%;
+                         height: 0.55rem;
+                         line-height: 0.55rem;
+                         border: none;
+                         text-align: center;
+                         border-radius: 5px;
+                         background: #fff url(../img/images/search_03.jpg) no-repeat 0.85rem 0.13rem;
+                         background-size: 0.24rem;
+                     }
+                 }*/
+                 .icon-group {
+                     margin-top: 0.05rem;
+                     height: 0.5rem;
+                     width: 0.46rem;
+                     text-align: center;
+                     .icon {
+                         i {
+                             font-size: 0.34rem;
+                         }
+                     }
+                 }
+             }
+             /*nav*/
+             .home-content-wraper {
+                 width: 100%;
+                 .home-nav {
+                     width: 100%;
+                     height: 0.7rem;
+                     background: #f7f9f8;
+                     display: -webkit-box;
+                     -webkit-box-align: center;
+                     a {
+                         display: block;
+                         width: 25%;
+                         line-height: 0.7rem;
+                         text-align: center;
+                         color: #8b8a8f;
+                         border-bottom: 1px solid #fff;
+                         text-decoration: none;
+                         &.home-nav-on {
+                             color: #66a695;
+                             border-bottom: 1px solid #66a695;
+                         }
+                     }
+                 }
+                 //main
+                 .home-main {
+                     width: 100%;
+                     margin-top: 0.01rem;
+                     -webkit-box-flex: 1;
+                     .home-main-swiper {
+                         width: 100%;
+                         .home-main-section {
+                             overflow: hidden;
+                             width: 100%;
+                             /*box-sizing: border-box;
+                             padding: 1%;*/
+                             //banner下的主体部分
+                             .swiper-container-banner {
+                                 width: 100%;
+                                 position: relative;
+                                 .home-main-chosen-banner {
+                                     width: 100%;
+                                     box-sizing: border-box;
+                                     .swiper-slide {
+                                         width: 100%;
+                                         img {
+                                             width: 100%;
+                                         }
+                                     }
+                                 }
+                                 .swiper-pagination-1 {
+                                     position: absolute;
+                                 }
+                             }
+                             .home-main-list {
+                                 width: 100%;
+                                 box-sizing: border-box;
+                                 padding: 0 0.12rem;
+                                 .swiper-container-banner {
+                                     width: 100%;
+                                     position: relative;
+                                     .home-main-chosen-banner {
+                                         width: 100%;
+                                         box-sizing: border-box;
+                                         padding: 0 0.15 rem;
+                                         .swiper-slide {
+                                             width: 100%;
+                                             img {
+                                                 width: 100%;
+                                                 margin: 3% 0;
+                                             }
+                                         }
+                                     }
+                                     .swiper-pagination-1 {
+                                         position: absolute;
+                                     }
+                                 }
+                                 .home-main-list-time {
+                                     height: 1.05rem;
+                                     line-height: 1.05rem;
+                                     text-align: center;
+                                     color: #91919c;
+                                     background: #f3f4f6;
+                                     font-family: cursive;
+                                 }
+                                 .home-main-list-boxs {
+                                     width: 100%;
+                                     background: #fff;
+                                     border-radius: 1%;
+                                     a {
+                                         display: block;
+                                         width: 100%;
+                                         color: #666;
+                                         text-decoration: none;
+                                         img {
+                                             width: 100%;
+                                         }
+                                         .home-main-list-bigtxt {
+                                             height: 1rem;
+                                             line-height: 0.98rem;
+                                             margin-left: 0.25rem;
+                                             background: url(../images/shouye/short-line_07.jpg) left bottom no-repeat;
+                                             background-size: 0.3rem;
+                                             font-size: 0.28rem;
+                                         }
+                                         .home-main-list-smalltxt {
+                                             padding: 0.18rem 0.25rem;
+                                             height: 0.82rem;
+                                             line-height: 0.82rem;
+                                             font-size: 0.22rem;
+                                             .home-main-list-colortxt {
+                                                 color: #889f81;
+                                                 padding-left: 0.16rem;
+                                             }
+                                         }
+                                         .home-main-list-icon {
+                                             height: 0.8rem;
+                                             line-height: 0.8rem;
+                                             padding-left: 0.22rem;
+                                             border-top: 1px solid #f1f2f4;
+                                             span {
+                                                 width: 1.7rem;
+                                                 float: left;
+                                                 height: 0.8rem;
+                                                 line-height: 0.8rem;
+                                                 i {
+                                                     color: #c0c0ca;
+                                                     margin-right: 0.14rem;
+                                                     font-size: 0.35rem;
+                                                     float: left;
+                                                     line-height: 0.85rem;
+                                                 }
+                                                 time {
+                                                     font-family: cursive;
+                                                 }
+                                             }
+                                         }
+                                     }
+                                 }
+                                 .home-main-list-boxsm {
+                                     margin-top: 0.2rem;
+                                     h3 {
+                                         padding-top: 0.4rem;
+                                         font-size: 0.28rem;
+                                         margin-left: 0.25rem;
+                                         font-weight: normal;
+                                     }
+                                     .home-main-list-txt {
+                                         margin: 0.16rem 0 0.6rem 0.2rem;
+                                         font-size: 0.26rem;
+                                     }
+                                     .swiper-container-smpic {
+                                         width: 100%;
+                                         margin-bottom: 0.13rem;
+                                         .home-main-chosen-show {
+                                             width: 100%;
+                                             .swiper-slide {
+                                                 width: 100%;
+                                                 img {
+                                                     width: 100%;
+                                                 }
+                                                 p {
+                                                     width: 100%;
+                                                     text-align: left;
+                                                     padding-left: 30%;
+                                                     color: #628058;
+                                                 }
+                                             }
+                                         }
+                                     }
+                                     .home-main-list-smalltxt {
+                                         font-size: 0.24rem !important;
+                                         height: 0.68rem !important;
+                                         line-height: 0.68rem !important;
+                                         color: #849b7c;
+                                     }
+                                 }
+                                 .home-main-list-boxmd {
+                                     margin-top: 0.2rem;
+                                     dl {
+                                         width: 100%;
+                                         background: #f5f1f0;
+                                         dt {
+                                             float: left;
+                                             width: 0.77rem;
+                                             margin: 0.24rem 0.22rem;
+                                             img {
+                                                 width: 100%;
+                                             }
+                                         }
+                                         dd {
+                                             float: left;
+                                             margin: 0.24rem 0;
+                                             .home-main-list-txt {
+                                                 font-size: 0.24rem;
+                                                 margin: 0;
+                                             }
+                                             .home-main-list-txtc {
+                                                 color: #848982;
+                                             }
+                                         }
+                                     }
+                                     .home-main-chosen-showmd {
+                                         margin-left: 0.15rem;
+                                         .swiper-slide {
+                                             img {
+                                                 border-radius: 3%;
+                                             }
+                                         }
+                                     }
+                                     .home-main-list-txt1 {
+                                         line-height: 0.54rem;
+                                         margin-left: 0.22rem;
+                                         margin-top: 0.13rem;
+                                         color: #61735b;
+                                     }
+                                     .home-main-list-txt2 {
+                                         line-height: 0.54rem;
+                                         margin-left: 0.22rem;
+                                         height: 0.75rem;
+                                     }
+                                 }
+                             }
+                         }
+                         .home-main-topic {
+                             .home-main-chosen-list {
+                                 .home-main-list-boxbg {
+                                     margin-bottom: 0.2rem;
+                                 }
+                             }
+                         }
+                         .home-main-lookbook {
+                             .home-main-chosen-list {
+                                 .home-main-list-boxbg {
+                                     margin-top: 0.2rem;
+                                     margin-bottom: 0;
+                                     .home-main-list-llokbooktxt {
+                                         height: 0.52rem;
+                                         margin-left: 0.26rem;
+                                         padding-top: 0.7rem;
+                                         font-size: 0.22rem;
+                                         .home-main-list-colortxt {
+                                             margin-left: 0.16rem;
+                                             color: #848982;
+                                         }
+                                     }
+                                 }
+                             }
+                         }
+                         .home-main-essay {
+                             .home-main-chosen-list {
+                                 .home-main-list-boxbg {
+                                     margin-top: 0.2rem;
+                                     margin-bottom: 0;
+                                     .home-main-list-essaytxt1 {
+                                         margin: 0.36rem 0.24rem;
+                                         font-size: 0.26rem;
+                                     }
+                                     .home-main-list-essaytxt2 {
+                                         margin: 0.16rem 0 0.25rem 0.24rem;
+                                         font-size: 0.24rem;
+                                         .home-main-list-colortxt {
+                                             margin-left: 0.16rem;
+                                             color: #7f847d;
+                                         }
+                                     }
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }

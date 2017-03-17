@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.hbanner2 {
+  /*椤堕儴*/
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*nav*/ }
+  .hbanner2 .home-header-bar {
+    height: 0.7rem;
+    border: none;
+    position: inherit; }
+    .hbanner2 .home-header-bar h3 {
+      left: 0.92rem;
+      right: 0.92rem;
+      margin-top: 0.1rem; }
+      .hbanner2 .home-header-bar h3 div {
+        width: 100%;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        border: none;
+        color: #aaa9ae;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff url(../images/shouye/search_03.jpg) no-repeat 0.85rem 0.13rem;
+        background-size: 0.24rem; }
+    .hbanner2 .home-header-bar .icon-group {
+      margin-top: 0.05rem;
+      height: 0.5rem;
+      width: 0.46rem;
+      text-align: center; }
+      .hbanner2 .home-header-bar .icon-group .icon i {
+        font-size: 0.34rem; }
+  .hbanner2 .imgbox {
+    background: #fff;
+    width: 100%; }
+    .hbanner2 .imgbox img {
+      width: 7.5rem; }
+    .hbanner2 .imgbox .firstimg {
+      width: 100%;
+      position: relative;
+      color: #fff0d8;
+      text-align: center; }
+      .hbanner2 .imgbox .firstimg h2 {
+        width: 100%;
+        position: absolute;
+        top: 3.8rem;
+        font-weight: normal;
+        text-align: center;
+        font-size: 0.46rem; }
+      .hbanner2 .imgbox .firstimg p {
+        width: 100%;
+        position: absolute;
+        top: 4.9rem;
+        font-size: 0.18rem;
+        text-align: center; }
+      .hbanner2 .imgbox .firstimg div {
+        width: 100%;
+        position: absolute;
+        top: 6.7rem;
+        color: #fff; }
+        .hbanner2 .imgbox .firstimg div a {
+          display: inline-block;
+          width: 1.1rem;
+          height: 1.1rem;
+          border: 2px solid #fff;
+          border-radius: 100%;
+          color: #fff;
+          margin: 0 0.2rem;
+          text-align: center;
+          line-height: 1.1rem; }
+          .hbanner2 .imgbox .firstimg div a span {
+            font-size: 0.24rem;
+            display: block;
+            line-height: 0.6rem;
+            font-weight: normal; }
+          .hbanner2 .imgbox .firstimg div a i {
+            font-size: 0.46rem; }
+  .hbanner2 .xiangguan_danpin {
+    background: #fff;
+    box-sizing: border-box;
+    border-top: 0.12rem solid #f6f7f8; }
+    .hbanner2 .xiangguan_danpin .danpin {
+      background: url(../img/exp_banner6.png) no-repeat;
+      height: 1.5rem;
+      line-height: 1.1rem;
+      font-size: 0.2rem;
+      color: #5C6765;
+      padding-left: 0.16rem; }
+    .hbanner2 .xiangguan_danpin dl {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.25rem;
+      display: -webkit-flex; }
+      .hbanner2 .xiangguan_danpin dl dt {
+        width: 2.15rem;
+        border: 1px solid #F4F4F5;
+        padding: 0.24rem;
+        font-size: 0.2rem; }
+        .hbanner2 .xiangguan_danpin dl dt img {
+          width: 100%; }
+      .hbanner2 .xiangguan_danpin dl dd {
+        padding-left: 0.24rem;
+        padding-top: 0.24rem; }
+        .hbanner2 .xiangguan_danpin dl dd p {
+          line-height: 0.45rem;
+          color: #76767B; }
+        .hbanner2 .xiangguan_danpin dl dd span {
+          display: block;
+          color: #A3DCCC;
+          height: 0.7rem;
+          line-height: 0.5rem; }
+        .hbanner2 .xiangguan_danpin dl dd a {
+          border: 1px solid #7B7B7F;
+          display: inline-block;
+          width: 0.65rem;
+          height: 0.55rem;
+          text-align: center;
+          line-height: 0.56rem; }
+          .hbanner2 .xiangguan_danpin dl dd a img {
+            width: 0.28rem; }
+          .hbanner2 .xiangguan_danpin dl dd a.a_right {
+            margin-left: 0.3rem; }
+
+/*# sourceMappingURL=home-hbanner2.css.map */

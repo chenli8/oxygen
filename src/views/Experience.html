@@ -1,0 +1,159 @@
+<footer ng-include="'src/views/footer.html'"></footer>
+<div class="Experience-wrap">
+	<header ng-include="'src/views/header.html'"></header>
+	<div class="Experience-content">
+			<div class="swiper-container container  swipers">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat="item in banner">
+						<img ng-src="./src/img/{{ item.bannerSrc }}" alt="" ui-sref="expbanner">
+					</div>
+					
+				</div>
+				 <div class="swiper-pagination swiper-pagination-white banner-pagination"></div>
+			</div>
+			<section>
+				<h3>筛选体检报告</h3>
+				<p>FILTER</p>
+				<div class="swiper-container swipers1" id="swiper-container2" >
+				<div class="swiper-wrapper">
+					<div class="swiper-slide active-nav">罩杯</div>
+						
+					<div class="swiper-slide">场景</div>	
+					
+				</div>
+			</div>
+				
+				<div class="swiper-container swipers2" id="swiper-container3" >
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="ty-size">
+								<ul>
+									<li ng-repeat="item in zhaobei.type">{{ item }}</li>
+								</ul>
+								<ol>
+									<li ng-repeat="item in zhaobei.size">{{ item }}</li>
+								</ol>
+							</div>
+						</div>
+						 <div class="swiper-slide">
+							<div class="ty-cj">
+								<dl ui-sref="jujia({title:item.title})" ng-repeat="item in changjing">
+									<dt><img ng-src="./src/img/{{ item.changjingpic }}" alt=""></dt>
+									
+									<dd>{{ item.title }}</dd>
+								</dl>
+								
+							</div>
+						</div>
+					</div>
+				</div> 
+			</section>
+			<section>
+				<h3>推荐体验师</h3>
+				<p>GIRLS</p>
+				<div class="swiper-container swipers4">
+					<div class="swiper-wrapper">
+					 <!-- ng-repeat="item in tiyanshi" -->
+						<div class="swiper-slide"  ui-sref="expguanzhu" ng-repeat="item in tiyanshi">
+							<dl>
+								<dt><img ng-src="./src/img/{{ item.tiyanpic }}" alt=""></dt>
+								<dd>
+									<b>{{ item.tysname }}</b>
+									<p><em>{{ item.tyssize }}</em> / <i>{{ item.fensinum }}</i>粉丝</p>
+									<span>{{ item.guanzhu }}</span>
+								</dd>
+							</dl>
+							
+						</div>
+						
+					</div>
+				</div> 
+				<p class="chakan" ui-sref="expchakan">查看全部</p>
+			</section>
+			<section class="exp-ty">
+				<h3>精选体验报告</h3>
+				<p>EDITOR`S PICK</p>
+				<div class="swiper-container swipers5" id="swiper-container5" >
+					<div class="swiper-wrapper">
+						<div class="swiper-slide active-nav">全部</div>
+							
+						<div class="swiper-slide">关注</div>	
+						
+					</div>
+				</div>
+				<div class="swiper-container swipers6" id="swiper-container6">
+
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide mj">
+							<div class="quanbu" ng-repeat="item in baogao">
+								<dl class="dls">
+									<dt><img ng-src="./src/img/{{ item.info.tytouxiang }}" alt=""></dt>
+									<dd>
+										<h6>{{ item.info.tyname }}</h6>
+										<span><i ng-repeat="itemxq in item.info.tysxq">{{ itemxq }}</i></span>
+									</dd>
+								</dl>
+								<div class="swiper-container swipers7">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide" ng-repeat="itemtu in item.xqtu">
+											<img ng-src="./src/img/{{ itemtu }}" alt="" ui-sref="expbanner">
+										</div>
+										
+									</div>
+								</div>
+								<p><i ng-repeat="itembq in item.biaoqian">{{ itembq }}</i></p>
+								<p>相关品牌：{{ item.pinpai}}</p>
+								<p class="eye"><a href="#"><i class="icon iconfont">&#xe633;</i><span>0</span></a><a href="#"><i class="icon iconfont">&#xe611;</i><span>0</span></a>
+  								</p>
+							</div>
+							
+						</div>
+						<div class="swiper-slide">
+							<div class="guanzhu" ui-sref="expbg" ng-repeat="item in guanzhu">
+								<dl>
+									<dt><img ng-src="./src/img/{{ item.propic }}" alt=""></dt>
+									<dd>
+										<b>{{ item.proname }}</b>
+										<b>{{ item.proxq }}</b>
+										<b>—</b>
+										<span>购买尺码: <a>{{ item.prosize }}</a></span>
+									</dd>
+								</dl>
+								<h5>{{ item.propj }}</h5>
+								<h5><span>By {{ item.tyname }}</span>|<b>体验报告</b></h5>
+								<h5 class="eye"><a href="#"><i class="icon iconfont">&#xe633;</i><span>0</span></a><a href="#"><i class="icon iconfont">&#xe611;</i><span>0</span></a>
+  								</h5>
+							</div>
+								<div class="quanbu" ng-repeat="item in baogao">
+								<dl class="dls">
+									<dt><img ng-src="./src/img/{{ item.info.tytouxiang }}" alt=""></dt>
+									<dd>
+										<h6>{{ item.info.tyname }}</h6>
+										<span><i ng-repeat="itemxq in item.info.tysxq">{{ itemxq }}</i></span>
+									</dd>
+								</dl>
+								<div class="swiper-container swipers7">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide" ng-repeat="itemtu in item.xqtu">
+											<img ng-src="./src/img/{{ itemtu }}" alt="">
+										</div>
+										
+									</div>
+								</div>
+								<p><i ng-repeat="itembq in item.biaoqian">{{ itembq }}</i></p>
+								<p>相关品牌：{{ item.pinpai}}</p>
+								<p class="eye"><a href="#"><i class="icon iconfont">&#xe633;</i><span>0</span></a><a href="#"><i class="icon iconfont">&#xe611;</i><span>0</span></a>
+  								</p>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+
+			</section>
+		</div>
+</div>
+
+ <ui-view></ui-view>

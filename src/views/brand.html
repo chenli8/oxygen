@@ -1,0 +1,15 @@
+<div class="brand_content">
+	<div class="brand_list" ng-repeat="i in dates">
+		<img ng-src="{{i.img}}" alt="" class="img_one"/>
+		<div class="brand_list_item" >
+			<img ng-repeat="item in i.pic" ng-src="{{item}}" alt="" />
+		</div>
+	</div>
+	<div class="brand_main">
+		<p class="filter">
+			<span>推荐品牌</span>
+			<i>BRANDS</i>
+		</p>
+		
+	</div>
+</div>

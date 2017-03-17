@@ -1,0 +1,11 @@
+<div class="hot-wrap">
+	<section class="search-goods">
+		<dl ng-repeat='item in goodsdata' ui-sref="salelist">
+			<dt><img ng-src="src/images/goos/{{item.src}}" alt="" /></dt>
+			<dd>
+				<p>{{item.tap}}<span>{{item.price}}</span></p>
+			</dd>
+		</dl>
+		
+	</section>
+</div>

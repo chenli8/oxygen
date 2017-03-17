@@ -1,0 +1,62 @@
+.exp-chankan-wrap {
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+  box-sizing: border-box; }
+  .exp-chankan-wrap .Exp-chakan-content {
+    padding-top: 0.84rem; }
+    .exp-chankan-wrap .Exp-chakan-content .gengduo {
+      border-bottom: 1px solid #EDEEF0;
+      position: fixed;
+      top: 0.82rem;
+      z-index: 1000;
+      width: 100%;
+      background: #F7F7F7; }
+    .exp-chankan-wrap .Exp-chakan-content #swiper-container2 .swiper-slide {
+      line-height: 4 !important;
+      color: #9F9EA7 !important;
+      font-size: 14px !important;
+      text-align: center; }
+    .exp-chankan-wrap .Exp-chakan-content #swiper-container2 .active-nav {
+      color: #59784E !important; }
+    .exp-chankan-wrap .Exp-chakan-content .genguo-content {
+      padding-top: 0.8rem; }
+      .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section {
+        margin-top: 0.35rem;
+        border: 1px solid #E7E7EA;
+        padding: 0.1rem;
+        background: #fff; }
+        .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section h1 {
+          padding-top: 0.2rem;
+          text-align: center;
+          line-height: 1.47rem; }
+          .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section h1 span {
+            width: 0.29rem; }
+            .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section h1 span img {
+              width: 35%; }
+        .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section p {
+          line-height: 0.52rem;
+          font-size: 0.2rem;
+          text-align: center;
+          color: #5F5F5F; }
+          .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section p b {
+            font-weight: normal;
+            padding: 0 0.18rem;
+            color: #5F5F5F; }
+          .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section p span {
+            padding: 0.22rem 0.32rem;
+            background: #F0F2F4;
+            color: #708A66;
+            border-radius: 0.05rem; }
+          .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section p:nth-child(3) {
+            margin-bottom: 0.3rem; }
+        .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section .pics {
+          width: 100%;
+          margin-top: 0.2rem;
+          padding: 0.2rem 0.2rem; }
+          .exp-chankan-wrap .Exp-chakan-content .genguo-content .swiper-slide section .pics img {
+            display: inline-block;
+            width: 30%;
+            margin-right: 0.15rem; }
+
+/*# sourceMappingURL=Exp-chakan.css.map */

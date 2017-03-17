@@ -1,0 +1,48 @@
+.whisper-wrap {
+  width: 100%; }
+  .whisper-wrap .whisper-view {
+    width: 100%;
+    padding-top: 0.84rem;
+    background: #f3f4f5; }
+    .whisper-wrap .whisper-view .all-list-box {
+      width: 96%;
+      margin: auto; }
+      .whisper-wrap .whisper-view .all-list-box .all-list-item {
+        width: 100%;
+        margin-top: 0.2rem;
+        background: #fff;
+        border-radius: 5px; }
+        .whisper-wrap .whisper-view .all-list-box .all-list-item dl {
+          width: 100%; }
+          .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd {
+            padding: 0.28rem 0.2rem  0 0.2rem;
+            box-sizing: border-box;
+            line-height: 0.48rem; }
+            .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-point {
+              width: 100%;
+              border-top: 1px #ccc solid;
+              padding: 0.2rem;
+              box-sizing: border-box; }
+              .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-point a {
+                color: #999;
+                margin-right: 0.65rem; }
+                .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-point a span {
+                  margin-left: 0.1rem; }
+            .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-review {
+              margin-bottom: 0.1rem; }
+              .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-review .whisper {
+                color: #999; }
+              .whisper-wrap .whisper-view .all-list-box .all-list-item dl dd .user-review p .user-name {
+                color: #9baf95; }
+          .whisper-wrap .whisper-view .all-list-box .all-list-item dl dt {
+            width: 100%; }
+            .whisper-wrap .whisper-view .all-list-box .all-list-item dl dt img {
+              width: 100%;
+              display: block; }
+    .whisper-wrap .whisper-view .whisper-banner {
+      width: 100%; }
+      .whisper-wrap .whisper-view .whisper-banner img {
+        display: block;
+        width: 100%; }
+
+/*# sourceMappingURL=whisper.css.map */

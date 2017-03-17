@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myapp'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src='src/js/setfontsize.js'></script>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link src='src/font/css/swiper.min.css'>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/font/css/fonts.css">
+    <link rel="stylesheet" href="src/font/font_home/iconfont.css">
+</head>
+
+<body ng-controller='shopping'>
+    <ui-view class="oxygen_wrap">
+        <!--  三件事  、demo1问题开发者  
+        	1.input无法容纳其他元素，因此它不支持伪元素。
+        	2.路由结构要有父盒子包裹，不然会报错
+        -->
+        <div>
+            <footer ng-include="'./src/views/footer.html'"></footer>
+            <!--外面要包一个父节点-->
+        </div>
+
+
+
+
+        </view>
+
+
+        <!--  <script src='src/font/css/swiper.min.js'></script> -->
+        <script src='src/js/angular.min.js'></script>
+        <script src='src/js/angular-animate.min.js'></script>
+        <script src='src/js/angular-ui-router.min.js'></script>
+        <script src='src/js/jquery-1.11.1.js'></script>
+        <script src='src/js/swiper.js'></script>
+        <script src='src/js/router.js'></script>
+        <script src='src/js/config.js'></script>
+        <script src='src/js/index.js'></script>
+        <script src="src/js/hdirective.js"></script>
+         <script src="src/js/experience.js"></script>
+</body>
+
+</html>

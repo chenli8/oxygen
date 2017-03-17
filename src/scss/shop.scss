@@ -1,0 +1,39 @@
+.s_content{
+    width: 100%;
+    height:100%;
+    display: flex;
+    
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow-y:auto ;
+}
+
+.shop_main{
+    flex: 1;
+   
+    flex-direction: column;
+    .shop_nav{
+        width: 100%;
+        height:0.63rem;
+        background: #f9f9f9;
+        display: flex;
+        position: fixed;
+         top:0.86rem;
+         z-index: 999;
+        p{
+            text-align: center;
+            line-height: 0.63rem;
+            width: 50%;
+        }
+    }
+    .shop_cont{
+        flex: 1;
+        padding-top: 1.46rem;
+        padding-bottom:0.98rem ;
+        overflow: hidden;
+    }
+}
+.active{
+    border-bottom: 2px solid #67c5ab;
+ }
+

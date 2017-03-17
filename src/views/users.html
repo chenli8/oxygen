@@ -1,0 +1,13 @@
+<div class="goods-user-wrap">
+	<section class="user-list" ng-repeat='item in goodsdata'>
+		<dl ng-repeat='n in item.userslist' ui-sref="salelist">
+			<dt>
+				<img ng-src="src/images/goos/{{n.usrc}}" alt="" />
+			</dt>
+			<dd>
+				<p>{{n.uinfo}}</p>
+			</dd>
+		</dl>
+		
+	</section>
+</div>

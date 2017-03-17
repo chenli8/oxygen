@@ -1,0 +1,46 @@
+<div class="whisper-wrap">
+	    <header class="oxygen-header-bar">
+			<h3 class="footer_title">{{typeinfo.title}}</h3>
+			<div class="icon-group left-icon-group">
+				<a href="" class="icon  " ng-click="back()">
+				<output class="fontpic" style='font-size: 24px;'>&#xe605;</output>
+			    </a>
+	        </div>
+       </header>
+       	<div class="whisper-view">
+       		<section class="whisper-banner">
+       			 <img ng-src="src/images/Topic/{{typeinfo.src}}" alt="" />
+       		</section>
+       		  <div class="all-list-box">
+						<section class="all-list-item" ng-repeat='item in typeinfo.content'>
+							 <dl>
+							 	<dt>
+							 		 <img ng-src="src/images/Topic/{{item.src}}" alt="">                                                               
+							 	</dt>
+							 	<dd>
+							 		最赞话题
+							 		<div class="user-review">
+							 			<p><a class="user-name">{{item.username}}:</a>{{item.tap}}</p>
+					                     <a ui-sref="whisper({id:typeinfo.id})" class="whisper">#{{ typeinfo.title }} </a>
+							 		</div>
+							 		<div class="user-point">
+							 			<a href="" change-bg>
+								            <i  class="fontpic" bg='pinkbg'>&#xe633;</i>
+							 				<span>{{item.love}}</span>
+							 			</a>
+							 			<a href="" change-bg>
+								            <i  class="fontpic" style='font-size:22px' bg='greenbg'>&#xe603;</i>
+							 				<span>{{item.view}}</span>
+							 			</a>
+							 			<a href="" change-bg>
+								            <i  class="fontpic" bg='bluebg'>&#xe625;</i>
+							 				<span>{{item.pinglun}}</span>
+							 			</a>
+							 		</div>
+							 	</dd>
+							 </dl>
+						</section>
+						
+              </div>
+       	       </div>
+</div>

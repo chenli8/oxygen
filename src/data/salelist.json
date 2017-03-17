@@ -1,0 +1,28 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "list": [{
+    "id":1,
+    "img": "src/images/sale_03.png",
+    "title":"LOVE Stories DARLING 墨绿色条纹蕾丝条纹",
+    "size": "M",
+    "info":["第一次穿软罩杯的BRA", "首先收到的时候蕾丝还有颜色真的都惊艳到我了，真的超美超性感","穿上很舒服，根本不用担心会凹点","情人节白衬衫加这件内衣，一定会美到他"],
+   "name":"BY MrsW"
+    
+   
+  }, {
+    "id":2,
+     "img": "src/images/sale_03.png",
+    "size": "S",
+    "title":"LOVE Stories DARLING 墨绿色条纹蕾丝条纹",
+    "info":["第一次穿软罩杯的BRA", "首先收到的时候蕾丝还有颜色真的都惊艳到我了，真的超美超性感","穿上很舒服，根本不用担心会凹点","情人节白衬衫加这件内衣，一定会美到他"],
+ 	"name":"BY MrsW"
+  }]
+
+  
+  
+  
+}
+

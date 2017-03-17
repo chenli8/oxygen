@@ -1,0 +1,60 @@
+<div class="shop_filtercontent">
+		<header>
+			<b class="icon" ng-click="back()">&#xe605;</b>
+			<p ng-click="change($event)" class="shopCh">
+				{{name}}
+				<i class="icons " ng-show="bool">&#xe62b;</i>
+				<i class="icons" ng-show="!bool">&#xe693;</i>	
+			</p>
+			<div class="sel" ng-hide="bools" >
+				<p ng-repeat="i in filter" ng-click="shopClick(i.id)" >{{i.name}}</p>
+			</div>
+			<span class="icon" ui-sref="search">&#xe647;</span><span class="icon" ui-sref="car">&#xe662;</span>
+		</header>
+		
+		
+		<div class="shop_fmain">
+			<ul class="shop_ftab">
+				<li>尺码<i class="ico">&#xe502;</i></li>
+				<li>价格<i class="ico i2">&#xe502;</i><i class="ico i2">&#xe63d;</i></li>
+				<li>品牌</li>
+				<li>筛选<i class="ico">&#xe715;</i></li>
+			</ul>
+			<div class="size">
+				<ul>
+					<li>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</li>
+					<li>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</li>
+					<li>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+</div>
+
+

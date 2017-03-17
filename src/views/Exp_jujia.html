@@ -1,0 +1,30 @@
+<div class="jujian-wrap">
+	<header ng-include="'./src/views/Expjujia_header.html'"></header>
+	<div class="jujia-content">
+
+		
+		 <div class="quanbu" ng-repeat="item in math.xiangq">
+		 <!-- {{ item.xiangq }} -->
+			<dl class="dls">
+				<dt><img ng-src="./src/img/{{ item.info.tytouxiang }}" alt=""></dt>
+				<dd>
+					<h6>{{ item.info.tyname }}</h6>
+					<span><i ng-repeat="juti in item.info.tysxq">{{ juti }}</i> </span>
+				</dd>
+			</dl>
+			<div class="swiper-container swipers7">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat="itempicx in item.xqtu">
+						<img ng-src="./src/img/{{ itempicx }}" alt="">
+					</div>
+					
+				</div>
+			</div>
+			<p ><i ng-repeat="i in item.biaoqian">{{ i }}</i></p>
+			<p>相关品牌：{{ item.pinpai }}</p>
+			<p class="eye"><a href="#"><i class="icon iconfont">&#xe633;</i><span>0</span></a><a href="#"><i class="icon iconfont">&#xe611;</i><span>0</span></a>
+				</p>
+		</div>
+		
+	</div>
+</div>

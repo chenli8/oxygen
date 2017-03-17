@@ -1,0 +1,170 @@
+html, body {
+  box-sizing: border-box; }
+
+.exp-banner-wrap {
+  width: 100%;
+  heigth: 100%;
+  box-sizing: border-box;
+  padding-bottom: 0.98rem; }
+  .exp-banner-wrap .exp-banner-content {
+    padding-top: 0.84rem;
+    width: 100%; }
+    .exp-banner-wrap .exp-banner-content .guanzhu-mx {
+      background: #fff;
+      width: 100%; }
+      .exp-banner-wrap .exp-banner-content .guanzhu-mx dl {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.2rem;
+        background: #fff;
+        float: left;
+        border-bottom: 1px solid #F3F3F3;
+        display: -webkit-flex; }
+        .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dt {
+          width: 0.89rem; }
+          .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dt img {
+            width: 100%; }
+        .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd {
+          -webkit-flex: 1;
+          display: -webkit-flex; }
+          .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a {
+            -webkit-flex: 1;
+            padding: 0.1rem;
+            text-align: center;
+            color: #909092; }
+            .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a span {
+              display: block;
+              color: #B0B0B2; }
+            .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a b {
+              display: block;
+              color: #2C2C2E; }
+            .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a:nth-child(2) {
+              text-align: left; }
+            .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a:nth-child(3) {
+              margin-top: 0.2rem;
+              box-sizing: border-box; }
+              .exp-banner-wrap .exp-banner-content .guanzhu-mx dl dd a:nth-child(3) em {
+                padding: 0.22rem 0.25rem;
+                background: #F1F2F4;
+                color: #697368; }
+    .exp-banner-wrap .exp-banner-content .mx-content {
+      border-bottom: 1px solid #E4E5E7;
+      box-sizing: border-box;
+      padding: 0.28rem;
+      padding-top: 1rem;
+      background: #fff; }
+      .exp-banner-wrap .exp-banner-content .mx-content h6 {
+        margin-top: 0.2rem;
+        line-height: 0.5rem;
+        font-weight: normal;
+        font-size: 0.26rem;
+        margin-top: 0.5rem;
+        color: #6B6B6D; }
+      .exp-banner-wrap .exp-banner-content .mx-content p {
+        line-height: 0.8rem; }
+        .exp-banner-wrap .exp-banner-content .mx-content p span {
+          color: #7C8975;
+          font-size: 0.24rem;
+          padding: 0 0.14rem; }
+          .exp-banner-wrap .exp-banner-content .mx-content p span:nth-child(1) {
+            padding-left: 0; }
+    .exp-banner-wrap .exp-banner-content .xiangguan {
+      border-top: 0.14rem solid #F3F4F6;
+      border-bottom: 0.14rem solid #F3F4F6;
+      background: #fff; }
+      .exp-banner-wrap .exp-banner-content .xiangguan p {
+        line-height: 0.85rem;
+        border-top: 0.01rem solid #E5E5E5;
+        border-bottom: 0.01rem solid #E5E5E5; }
+        .exp-banner-wrap .exp-banner-content .xiangguan p span {
+          padding-left: 0.28rem;
+          font-size: 0.23rem;
+          color: #A4B0A2; }
+    .exp-banner-wrap .exp-banner-content .xiangqing_tu {
+      padding: 0.28rem;
+      border-bottom: 1px solid #E7E8EB;
+      background: #fff; }
+      .exp-banner-wrap .exp-banner-content .xiangqing_tu ul {
+        width: 100%; }
+        .exp-banner-wrap .exp-banner-content .xiangqing_tu ul li {
+          width: 100%;
+          padding-top: 0.2rem; }
+          .exp-banner-wrap .exp-banner-content .xiangqing_tu ul li:nth-child(1) {
+            padding-top: 0; }
+          .exp-banner-wrap .exp-banner-content .xiangqing_tu ul li img {
+            width: 100%; }
+      .exp-banner-wrap .exp-banner-content .xiangqing_tu .warning {
+        border: 1px solid #F3F3F6;
+        margin-top: 0.5rem;
+        padding: 0.2rem; }
+        .exp-banner-wrap .exp-banner-content .xiangqing_tu .warning p {
+          width: 100%;
+          text-align: center;
+          line-height: 0.4rem;
+          font-size: 0.2rem;
+          color: #95959E; }
+    .exp-banner-wrap .exp-banner-content .xiangguan_danpin {
+      background: #fff;
+      margin-top: 0.25rem;
+      border-top: 1px solid #F4F4F6;
+      box-sizing: border-box; }
+      .exp-banner-wrap .exp-banner-content .xiangguan_danpin .danpin {
+        background: url(../img/exp_banner6.png) no-repeat;
+        height: 1.5rem;
+        line-height: 1.1rem;
+        font-size: 0.2rem;
+        color: #5C6765;
+        padding-left: 0.16rem; }
+      .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.25rem;
+        display: -webkit-flex; }
+        .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dt {
+          width: 2.15rem;
+          border: 1px solid #F4F4F5;
+          padding: 0.24rem;
+          font-size: 0.2rem; }
+          .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dt img {
+            width: 100%; }
+        .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd {
+          padding-left: 0.24rem;
+          padding-top: 0.24rem; }
+          .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd p {
+            line-height: 0.45rem;
+            color: #76767B; }
+          .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd span {
+            display: block;
+            color: #A3DCCC; }
+          .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd a {
+            border: 1px solid #7B7B7F;
+            display: inline-block;
+            width: 0.65rem;
+            height: 0.55rem;
+            padding: 0.15rem; }
+            .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd a img {
+              width: 100%; }
+            .exp-banner-wrap .exp-banner-content .xiangguan_danpin dl dd a.a_right {
+              margin-left: 0.3rem; }
+    .exp-banner-wrap .exp-banner-content .ty_xq {
+      width: 100%;
+      background: #fff;
+      margin-top: 0.25rem;
+      border-top: 1px solid #F4F4F6;
+      font-size: 0.2rem;
+      padding-top: 0.5rem; }
+      .exp-banner-wrap .exp-banner-content .ty_xq p {
+        text-align: center;
+        line-height: 0.7rem; }
+        .exp-banner-wrap .exp-banner-content .ty_xq p a {
+          color: #EEF8F5;
+          background: #65C4AA;
+          padding: 0.13rem 0.25rem;
+          border-radius: 10px; }
+      .exp-banner-wrap .exp-banner-content .ty_xq h6 {
+        line-height: 0.7rem;
+        color: #36363E;
+        text-align: center;
+        font-weight: normal; }
+
+/*# sourceMappingURL=Expbanner.css.map */

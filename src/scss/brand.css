@@ -1,0 +1,35 @@
+.brand_content {
+  width: 100%;
+  height: 100%; }
+
+.brand_list {
+  height: 5.8rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.2rem; }
+  .brand_list .img_one {
+    width: 100%; }
+
+.brand_list_item {
+  height: 3.8rem; }
+  .brand_list_item img {
+    width: 50%;
+    height: 1.91rem; }
+
+.brand_main {
+  width: 100%; }
+  .brand_main .filter {
+    width: 100%;
+    height: 0.73rem;
+    padding: 0.13rem 0rem;
+    border-bottom: 1px solid #ccc; }
+    .brand_main .filter span {
+      display: block;
+      text-align: center; }
+    .brand_main .filter i {
+      display: block;
+      text-align: center; }
+
+.active {
+  border-bottom: 2px solid #67c5ab; }
+
+/*# sourceMappingURL=brand.css.map */

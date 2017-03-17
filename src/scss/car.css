@@ -1,0 +1,147 @@
+.car-wrap {
+  width: 100%; }
+  .car-wrap .item-left {
+    width: 0.72rem;
+    height: 1.6rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    margin: 0.36rem 0; }
+    .car-wrap .item-left label {
+      width: 0.34rem;
+      height: 0.34rem;
+      position: relative;
+      display: block; }
+      .car-wrap .item-left label input {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 0;
+        opacity: 0; }
+        .car-wrap .item-left label input:checked + span {
+          background: url(../images/false_03.jpg);
+          background-size: cover; }
+      .car-wrap .item-left label span {
+        width: 0.34rem;
+        height: 0.34rem;
+        display: block;
+        background: url(../images/false.jpg);
+        background-size: cover; }
+  .car-wrap .car-footer-bar {
+    width: 100%;
+    position: fixed;
+    height: 0.86rem;
+    background: #fff;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box; }
+    .car-wrap .car-footer-bar .account-left {
+      -webkit-box-flex: 1;
+      line-height: 0.86rem;
+      padding-left: 0.25rem;
+      box-sizing: border-box; }
+      .car-wrap .car-footer-bar .account-left time {
+        margin-left: 0.35rem; }
+        .car-wrap .car-footer-bar .account-left time output {
+          color: #64c4a8; }
+      .car-wrap .car-footer-bar .account-left label {
+        width: 0.34rem;
+        height: 0.34rem;
+        position: relative;
+        top: 0.1rem; }
+        .car-wrap .car-footer-bar .account-left label input {
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 0.2rem;
+          opacity: 0; }
+          .car-wrap .car-footer-bar .account-left label input:checked + span {
+            background: url(../images/false_03.jpg) 0 0.02rem;
+            background-size: cover; }
+        .car-wrap .car-footer-bar .account-left label span {
+          width: 0.34rem;
+          height: 0.34rem;
+          display: inline-block;
+          background: url(../images/false.jpg) 0 0.02rem;
+          background-size: cover; }
+    .car-wrap .car-footer-bar .account-right {
+      display: block;
+      width: 2.13rem;
+      height: 0.86rem;
+      background: #64c4a8;
+      text-align: center;
+      line-height: 0.86rem;
+      color: #fff; }
+  .car-wrap .car-view {
+    margin-top: 0.88rem; }
+    .car-wrap .car-view .car-list-box {
+      width: 100%; }
+      .car-wrap .car-view .car-list-box .car-item {
+        width: 100%;
+        display: -webkit-box;
+        background: #fff; }
+        .car-wrap .car-view .car-list-box .car-item .item-right {
+          -webkit-box-flex: 1;
+          border-bottom: solid 0.3px  #ccc;
+          margin-top: 0.36rem; }
+          .car-wrap .car-view .car-list-box .car-item .item-right dl {
+            width: 100%;
+            display: -webkit-box; }
+            .car-wrap .car-view .car-list-box .car-item .item-right dl dd {
+              -webkit-box-flex: 1;
+              padding: 0 0.24rem;
+              box-sizing: border-box; }
+              .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count {
+                width: 100%;
+                height: 100%;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                -webkit-box-pack: center; }
+                .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-right {
+                  display: block; }
+                  .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-right i {
+                    color: #fa4b83;
+                    font-size: 27px; }
+                .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left {
+                  -webkit-box-flex: 1; }
+                  .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left .left-btm {
+                    width: 68%;
+                    margin: auto;
+                    margin-top: 0.15rem; }
+                    .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left .left-btm .choose-size {
+                      float: right;
+                      margin-right: 0.2rem;
+                      margin-top: -0.1rem; }
+                  .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left .left-top {
+                    height: 0.8rem;
+                    border-bottom: solid 0.03px #ccc;
+                    line-height: 0.8rem;
+                    width: 68%;
+                    margin: auto; }
+                    .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left .left-top i {
+                      font-size: 22px !important;
+                      color: #64c4a8; }
+                    .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-count .count-left .left-top input {
+                      border: 0;
+                      width: 1.9rem;
+                      text-align: center;
+                      line-height: 0.6rem; }
+              .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-title {
+                font-size: 0.18rem; }
+              .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-info {
+                margin-top: 0.1rem;
+                width: 100%; }
+                .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-info span {
+                  display: block; }
+                  .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-info span.price time {
+                    color: #64c4a8; }
+                    .car-wrap .car-view .car-list-box .car-item .item-right dl dd .goods-info span.price time:first-child {
+                      float: right; }
+            .car-wrap .car-view .car-list-box .car-item .item-right dl dt {
+              width: 1.62rem;
+              height: 1.62rem; }
+              .car-wrap .car-view .car-list-box .car-item .item-right dl dt img {
+                display: block;
+                width: 100%; }
+
+/*# sourceMappingURL=car.css.map */

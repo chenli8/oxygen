@@ -1,0 +1,117 @@
+<!--banner部分-->
+<section class="swiper-container-banner swiper-container myswiper1">
+    <div class="swiper-wrapper home-main-chosen-banner">
+        <div class="swiper-slide" ng-repeat="item in banner">
+            <!-- <a href="#">
+                                    <a ui-sref="{{item.bannerSerf}}">-->
+            <a ui-sref="{{item.bannerSerf}}">
+                <img ng-src="./src/images/shouye/homebanner/{{item.bannerSrc}}" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-1"></div>
+</section>
+<!--banner下的内容循环-->
+<div class="home-main-list home-main-chosen-list" ng-repeat="item in chosenData" ng-init="outerIndex = $index">
+    <h3 class="home-main-list-time">{{item.date}}</h3>
+    <div class="home-main-list-boxs home-main-list-boxbg">
+
+        <a ui-sref="hBigboxTopic({id:item.content.bigbox.id})">
+            <img ng-src="./src/images/shouye/homelist/{{item.content.bigbox.bgsrc}}" alt="">
+            <p class="home-main-list-bigtxt">
+                {{item.content.bigbox.txt}}
+            </p>
+            <p class="home-main-list-smalltxt">
+                FROM
+                <span class="home-main-list-colortxt">{{item.content.bigbox.from}}</span>
+            </p>
+            <p class="home-main-list-icon">
+                <span>
+                                    <i class="icon iconfont">&#xe600;</i>
+                                    <time>94</time>
+                                </span>
+                <span>
+                                    <i class="icon iconfont icon-eye">&#xe60f;</i>
+                                    <time>10994</time>
+                                </span>
+            </p>
+        </a>
+    </div>
+    <div class="home-main-list-boxs home-main-list-boxmd">
+        <a ui-sref="{{item.content.mdbox.href}}">
+            <dl>
+                <dt>
+                                 <img ng-src="./src/images/shouye/homelist/{{item.content.mdbox.touxiang}}" alt="">
+                              </dt>
+                <dd>
+                    <p class="home-main-list-txtc home-main-list-txtc">
+                        {{item.content.mdbox.username}}
+                    </p>
+                    <p class="home-main-list-txt">
+                        <span ng-repeat="inneritem in item.content.mdbox.userstatus" ng-init="innerIndex = $index">{{inneritem}}</span>
+                    </p>
+                </dd>
+            </dl>
+
+            <!---------------------swiper---------------------------->
+            <div class="swiper-container-mdpic  myswiper3">
+                <div class="swiper-wrapper home-main-chosen-showmd">
+                    <div class="swiper-slide" ng-repeat="srcitem in item.content.mdbox.mdsrcs track by $index" ng-init="srcIndex = $index">
+                        <img ng-src="./src/images/shouye/homelist/{{srcitem}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="home-main-list-txt"></p>
+
+            <p class="home-main-list-txt1">
+                <span ng-repeat="items in item.content.mdbox.describe" ui-sref="{{items.href}}">#{{items.txt}}</span>
+            </p>
+            <p class="home-main-list-txt2">
+                相关品牌：
+                <span ng-repeat="inneritems in item.content.mdbox.brand" ng-init="innerind=$index">{{inneritems}}</span>
+            </p>
+            <p class="home-main-list-icon">
+                <span>
+                                    <i class="icon iconfont">&#xe600;</i>
+                                    <time>94</time>
+                                </span>
+                <span>
+                                    <i class="icon iconfont icon-eye">&#xe60f;</i>
+                                    <time>10994</time>
+                                </span>
+            </p>
+        </a>
+    </div>
+    <div class="home-main-list-boxs home-main-list-boxsm">
+        <a ui-sref="hChosensm({id:item.content.smbox.id})">
+            <h3>{{item.content.smbox.tit}}</h3>
+            <p class="home-main-list-txt">{{item.content.smbox.tit2}}</p>
+            <!---------------------swiper---------------------------->
+            <div class="swiper-container-smpic  myswiper2">
+                <div class="swiper-wrapper home-main-chosen-show">
+                    <div class="swiper-slide" ng-repeat="items in item.content.smbox.goodsinfo track by $index" ng-init="smpic = $index">
+                        <img ng-src="./src/images/shouye/homelist/{{items.smsrcs}}" alt="">
+                        <p>{{items.price}}</p>
+                    </div>
+                </div>
+            </div>
+            <!---------------------swiper---------------------------->
+            <p class="home-main-list-smalltxt">
+                56件商品
+            </p>
+
+            <p class="home-main-list-icon">
+                <span>
+                                    <i class="icon iconfont">&#xe600;</i>
+                                    <time>94</time>
+                                </span>
+                <span>
+                                    <i class="icon iconfont icon-eye">&#xe60f;</i>
+                                    <time>10994</time>
+                                </span>
+            </p>
+
+
+        </a>
+    </div>
+</div>

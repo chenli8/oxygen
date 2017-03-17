@@ -1,0 +1,16 @@
+<div class="search-wrap">
+	  <header class="search-header-bar">
+	    <input type="text" placeholder="搜索" class="search-input" ng-model='serchdata' ng-keyup='oninput()'/>
+	    <a href="" class="cancel" ng-click="gopage()">取消</a>
+	  </header>
+	   <div class="search-view">
+	   	      <section class="search-nav">
+	              <a ui-sref="search.hot" ui-sref-active="on" class='on' style='boder:solid 1px #5fc2a7'>热门搜索</a>
+	              <a ui-sref="search.goods" ui-sref-active="on">商品</a>
+	              <a ui-sref="search.users" ui-sref-active="on">用户</a>	
+	        </section>
+	        <section>
+	        	<ui-view></ui-view>
+	        </section>
+	   </div>
+</div>

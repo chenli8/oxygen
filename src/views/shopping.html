@@ -1,0 +1,63 @@
+<div class="shopping_content">
+	<div class="shopping_c">
+		<div class="swiper-container shopping_banner">
+			 <my-swiper></my-swiper>
+			 <div class="swiper-pagination"></div>
+		</div>
+		<div class="shopping_main">
+			<p class="filter">
+				<span>分类</span>
+				<i>FILTER</i>
+			</p>
+			<div class="filter_item">
+				<p ng-repeat="i in data" class="filter_item_one" ui-sref="shop_filter({id:i.id})">
+					<img ng-src="{{i.img}}"  />
+					<span>{{i.title}}</span>
+				</p>
+			</div>
+		</div>
+		<div class="product">
+			<div class='product_nav'>
+                <p ng-class='{true:"alive",false:"alives"}[bool]' ng-click="tabClick('今日折扣')"><span>今日折扣</span><i>SALES</i></p> 
+                <p ng-class='{true:"alives",false:"alive"}[bool]' ng-click="tabClick('新品入荷')"><span>新品入荷</span><i>NEW</i></p>
+            </div>
+			<div class="product_cont">
+				
+					<div class="sale" ng-show="bool">
+						<dl class="class_cont">
+							<dt>
+								<img src="src/images/sale_03.png" alt="" />
+							</dt>
+							<dd>
+								<p>距离折扣结束还有</p>
+								<sale-time></sale-time>
+								<p>房趣 爱之味马卡龙创意避孕套铁盒 10只装 颜色随机</p>
+								<p>￥ 86<span>￥118</span></p>
+							</dd>
+						</dl>
+						<p class="sale_list" ui-sref="salelist">查看折扣详情</p>
+					</div>
+					
+					<div class="new" ng-show="bools">
+						
+						<new-swiper></new-swiper>
+							
+						
+						<p class="new_list">查看全部新品</p>
+					</div>
+
+			</div>
+		</div>
+		<div class="shopping_bottom">
+			<p class="filter">
+				<span>推荐商品分类</span>
+				<i>CHANNEL</i>	
+			</p>
+			
+			<list-swiper></list-swiper>
+			<p class="bottom_list">查看全部推荐</p>
+			
+		</div>
+	</div>
+	
+</div>

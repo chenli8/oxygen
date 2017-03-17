@@ -1,0 +1,199 @@
+.car-wrap{
+      width:100%;
+       .item-left{
+                       width:0.72rem;
+                       height:1.6rem;
+                       display:-webkit-box;
+                       -webkit-box-pack:center;
+                       -webkit-box-align:center;
+                        margin:0.36rem 0;
+                        
+                      label{
+                            width:0.34rem;
+                            height:0.34rem;
+                            position: relative;
+                            display: block;
+                            input{
+                                 position: absolute;
+                                 z-index:2;
+                                 left:0;
+                                 top:0;
+                                 opacity: 0;
+                                 &:checked+span{
+                                     background:url(../images/false_03.jpg);
+                                   background-size:cover;
+                                 }
+                            }
+                            span{
+                                 width:0.34rem;
+                                 height:0.34rem;
+                                display: block;
+                                 background:url(../images/false.jpg);
+                                 background-size:cover;
+                            }
+                            
+                      }
+                 }
+      .car-footer-bar{
+          width:100%;
+          position: fixed;
+          height:0.86rem;
+          background:#fff;
+          bottom: 0;
+          right:0;
+          display: -webkit-box;
+          .account-left{
+                            -webkit-box-flex:1;
+                           line-height:0.86rem;
+                           padding-left:0.25rem;
+                           box-sizing:border-box;
+                           
+                           time{
+                               margin-left:0.35rem;
+                               output{
+                                   color:#64c4a8;
+                               }
+                           }
+                             label{
+                            width:0.34rem;
+                            height:0.34rem;
+                            position: relative;
+                            top: 0.1rem;
+                           // display: inline-block;
+                          // padding-right:0.3rem;
+                            input{
+                                 position: absolute;
+                                 z-index:2;
+                                 left:0;
+                                 top:0.2rem;
+                                 opacity: 0;
+                                 &:checked+span{
+                                     background:url(../images/false_03.jpg) 0 0.02rem;
+                                   background-size:cover;
+                                 }
+                            }
+                            span{
+                                 width:0.34rem;
+                                 height:0.34rem;
+                                display:inline-block;
+                                 background:url(../images/false.jpg) 0 0.02rem;
+                                 background-size:cover;
+                            }
+                            
+                      }
+                        }
+          .account-right{
+             display:block;
+             width:2.13rem;
+             height:0.86rem;
+             background:#64c4a8;
+             text-align: center;
+             line-height: 0.86rem;
+             color:#fff;
+             
+          }
+      }
+      .car-view{
+          margin-top:0.88rem;
+          .car-list-box{
+           width:100%;
+           .car-item{
+                 width:100%;
+                 display:-webkit-box;
+                  background: #fff;
+                 .item-right{
+                     -webkit-box-flex:1;
+                      border-bottom:solid 0.3px  #ccc;
+                       margin-top:0.36rem;
+                      dl{
+                            width:100%;
+                            display:-webkit-box;
+                            dd{
+                                 -webkit-box-flex:1;
+                                 padding:0 0.24rem;
+                                  box-sizing: border-box;
+                                  .goods-count{
+                                       width:100%;
+                                       height: 100%;
+                                       display:-webkit-box;
+                                       -webkit-box-align: center;
+                                       -webkit-box-pack:center;
+                                       .count-right{
+                                           display:block;
+                                           //width:0.61rem;
+                                          // height:0.61rem;
+                                           //background:red;
+                                           i{
+                                               color:#fa4b83;
+                                               font-size: 27px;
+                                           }
+                                       }
+                                       .count-left{
+                                           -webkit-box-flex:1;
+                                           //background:red;
+                                           .left-btm{
+                                               width:68%;
+                                               margin:auto;
+                                               margin-top:0.15rem;
+                                               .choose-size{
+                                                   float:right;
+                                                   margin-right: 0.2rem;
+                                                   margin-top: -0.1rem;
+                                               }
+                                           }
+                                            .left-top{
+                                                height:0.8rem;
+                                                border-bottom:solid 0.03px #ccc;
+                                                line-height: 0.8rem;
+                                                width:68%;
+                                                margin:auto;
+                                                i{
+                                                    font-size:22px !important;
+                                                    color:#64c4a8;
+                                                }
+                                                input{
+                                                    border:0;
+                                                    width:1.9rem;
+                                                    text-align: center;
+                                                    line-height: 0.6rem;
+                                                }
+                                            }
+                                       }
+                                  }
+                                  .goods-title{
+                                      font-size: 0.18rem;
+                                  }
+                                 .goods-info{
+                                      margin-top:0.1rem;
+                                      width:100%;
+                                      span{
+                                            display:block;
+                                            &.price{
+                                                 time{
+                                                    color:#64c4a8;
+                                                    &:first-child{
+                                                         float:right;
+                                                    }
+                                                   }
+                                            }
+                                           
+                                      }
+                                 }
+                            }
+                            dt{
+                                width: 1.62rem;
+                                height:1.62rem;
+                                img{
+                                    display:block;
+                                    width:100%;       
+                                }
+                            }
+                            
+                      }
+                 }
+                
+           }
+      }
+      }
+      
+}

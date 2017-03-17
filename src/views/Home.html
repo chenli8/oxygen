@@ -1,0 +1,56 @@
+<div class="home-wraper">
+    <header class="home-header-bar oxygen-header-bar">
+
+        <!--<h3>
+            <input type="text" placeholder="输入商品关键词或用户名">
+        </h3>-->
+        <h3>
+           <div>输入商品关键词或用户名</div>
+            <!--<input type="text" placeholder="">-->
+        </h3>
+        <div class="icon-group left-icon-group">
+            <a href="" class="icon">
+                <i class="icon iconfont">&#xe61c;</i>
+            </a>
+        </div>
+        <div class="icon-group right-icon-group">
+            <a href="" class="icon">
+                <i class="icon iconfont">&#xe662;</i>
+            </a>
+        </div>
+
+    </header>
+    <div class="home-content-wraper">
+        <nav class="home-nav">
+            <a class="home-nav-list home-nav-on">氧气精选</a>
+            <a class="home-nav-list">内衣专题</a>
+            <a class="home-nav-list">LookBook</a>
+            <a class="home-nav-list">小编随笔</a>
+        </nav>
+        <section class="home-main swiper-container-big myswiper">
+
+            <div class="swiper-wrapper home-main-swiper">
+                <!--111111111111111111111  氧气精选内容： 111111111111111111111111111 -->
+                <div class="swiper-slide home-main-section home-main-chosen">
+                    <div ng-include="'./src/views/home/hchosen.html'"></div>
+                </div>
+                <!--222222222222222222222222222222222内衣专题2222222222222222222222-------->
+                <div class="swiper-slide home-main-section home-main-topic">
+                    <div ng-include="'./src/views/home/htopic.html'"></div>
+                </div>
+                <!--   3333333333333333333333333  LOOKBOOK  33333333333333333----------->
+                <div class="swiper-slide home-main-section home-main-lookbook">
+                    <div ng-include="'./src/views/home/hlookbook.html'"></div>
+                    <!---->
+                </div>
+                <!--44444444444444444444444444444 小编随笔 44444444444444444444444444444-->
+                <div class="swiper-slide home-main-section home-main-essay">
+                    <div ng-include="'./src/views/home/hassay.html'"></div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+<footer ng-include="'src/views/footer.html'">
+</footer>

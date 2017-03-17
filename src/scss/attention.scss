@@ -1,0 +1,68 @@
+.attention-list-box{
+    width:100%;
+    .attention-list-item{
+        width:100%; 
+        dl{
+             width:100%;
+             background:#fff;
+             border-radius: 3px;
+              margin-top:0.2rem;
+             dd{
+                 width:100%;
+                 padding:0.23rem 0.22rem;
+                   box-sizing: border-box;
+                   .attention-info{
+                       margin-top: 0.2rem;
+                       p{
+                            //line-height: 0.3rem;
+                            color:#000
+                       }
+                       
+                   }
+                 .attention-user{
+                      width:100%;
+                       display:-webkit-box;    
+                       -webkit-box-align:cener;
+                       -webkit-box-pack:center;
+                       .zan{
+                           width:0.65rem;
+                           height:0.35rem;
+                           border:solid 1px #ccc;
+                           display:block;
+                           margin-top:0.06rem;
+                           text-align: center;
+                           line-height:0.35rem;
+                             border-radius: 2px;
+                             &.bgs{
+                                 background: #65c4aa;
+                             }
+                       }
+                      .about-user{
+                       -webkit-box-flex:1;
+                       span{
+                            margin-left:0.2rem;
+                            color:#617f57
+                       }
+                   
+                       .user-head{
+                           display:inline-block;
+                           width:0.52rem;
+                           height:0.52rem;
+                           border-radius:50%;
+                       }   
+                      }
+                 }
+             }
+             dt{
+                 width:100%;
+                 border-radius:5px;
+                 img{
+                 display:block;
+                 width:100%;
+              }
+             }
+             
+        }
+    }
+
+}

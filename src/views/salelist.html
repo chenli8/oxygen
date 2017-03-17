@@ -1,0 +1,80 @@
+<div id="salelist">
+	<header>
+		<b class="icon" ng-click="back()">&#xe605;</b>
+		<p>328人收藏</p>
+		<span class="icon">&#xe662;</span><span class="icon">&#xe635;</span>
+	</header>
+	<div class="salelist_main">
+		<sale-tab></sale-tab>
+		<div class="s_m_cont swiper-container sale-swiper ">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="main_swiper swiper-container main-swiper">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide"><img src="src/images/sale_03.png" alt="" /></li>
+							<li class="swiper-slide"><img src="src/images/sale_03.png" alt="" /></li>
+							<li class="swiper-slide"><img src="src/images/sale_03.png" alt="" /></li>
+							<li class="swiper-slide"><img src="src/images/sale_03.png" alt="" /></li>
+						</ul>
+						<div class="swiper-pagination"></div>
+						<p>房趣 爱之味马卡龙创意避孕套铁盒 10只装 颜色随机</p>
+						<b>￥ 86</b>
+						<b>￥118</b>
+					</div>	
+				</div>
+				<div class="swiper-slide">
+					<div class="tuwen">
+						<span>装在冰淇淋盒子里的内衣，好似甜品一样可爱！整身有红色弹性蕾丝职称，搭配花朵蕾丝图案和倩倩的波浪边缘，恰到好处的贴合肌肤。</span>
+						<p>
+							<img src="src/images/sale_03.png" alt="" />
+						</p>
+						
+					</div>
+				</div>
+				<div class="swiper-slide swiper3">
+					<div class="bont_box" ng-repeat="i in list">
+						<dl>
+							<dt><img ng-src="{{i.img}}"  /></dt>
+							<dd>
+								<p>{{i.title}}</p>
+								<p>-</p>
+								<p>购买尺码：{{i.size}}</p>
+							</dd>
+						</dl>
+						<p ng-repeat="item in i.info">{{item}}</p>
+						<span>{{i.name}}</span>
+						<div class="listbottom">
+							<p>
+							 	<span class="icon pic1">&#xe611;</span>
+							 	<span>0</span>
+							 </p>	
+							 <p>
+							 	<span class="icon pic1">&#xe633;</span>
+							 	<span>0</span>
+							 </p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<p class="zhuanti">
+						<img src="src/img/exp15.png" alt="" />
+						<span>这里还没有内容哦~</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		 <p>
+		 	<span class="icon pic1">&#xe611;</span>
+		 	<span>分享</span>
+		 </p>	
+		 <p>
+		 	<span class="icon pic1">&#xe633;</span>
+		 	<span>收藏</span>
+		 </p>
+		 <p>加入购物车</p>
+		 <p>立即购买</p>
+		 
+	</footer>
+</div>

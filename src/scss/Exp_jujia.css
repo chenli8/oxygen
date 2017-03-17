@@ -1,0 +1,62 @@
+.jujian-wrap {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.98rem;
+  box-sizing: border-box; }
+  .jujian-wrap .jujia-content {
+    width: 100%;
+    padding-top: 0.84rem; }
+    .jujian-wrap .jujia-content .quanbu {
+      border-top: 1px solid #F3F7F6;
+      background: #fff; }
+      .jujian-wrap .jujia-content .quanbu dl {
+        width: 100%;
+        display: -webkit-flex;
+        padding: 0.3rem;
+        box-sizing: border-box; }
+        .jujian-wrap .jujia-content .quanbu dl dt {
+          width: 0.8rem;
+          height: 0.8rem;
+          margin-right: 0.3rem; }
+          .jujian-wrap .jujia-content .quanbu dl dt img {
+            width: 100%; }
+        .jujian-wrap .jujia-content .quanbu dl dd {
+          -webkit-flex: 1;
+          line-height: 0.4rem; }
+          .jujian-wrap .jujia-content .quanbu dl dd h6 {
+            font-weight: normal;
+            color: #808978; }
+          .jujian-wrap .jujia-content .quanbu dl dd span {
+            color: #BBBABF; }
+            .jujian-wrap .jujia-content .quanbu dl dd span i {
+              font-style: normal; }
+      .jujian-wrap .jujia-content .quanbu p {
+        text-align: left;
+        line-height: 0.5rem;
+        color: #7F7E83;
+        padding-left: 0.3rem; }
+        .jujian-wrap .jujia-content .quanbu p i {
+          font-style: normal;
+          padding: 0 0.05rem; }
+        .jujian-wrap .jujia-content .quanbu p.eye {
+          line-height: 0.6rem;
+          border-top: 1px solid #F1F1F1;
+          font-weight: normal;
+          border-bottom: 0.13rem solid #F2F3F5; }
+          .jujian-wrap .jujia-content .quanbu p.eye a {
+            margin-right: 0.5rem;
+            color: #666; }
+            .jujian-wrap .jujia-content .quanbu p.eye a i {
+              font-size: 0.3rem;
+              color: #C0C0C8;
+              margin-right: 0.2rem; }
+      .jujian-wrap .jujia-content .quanbu .swipers7 {
+        width: 100%;
+        padding-left: 0.2rem;
+        box-sizing: border-box; }
+        .jujian-wrap .jujia-content .quanbu .swipers7 .swiper-slide {
+          width: 40%; }
+          .jujian-wrap .jujia-content .quanbu .swipers7 .swiper-slide img {
+            width: 100%; }
+
+/*# sourceMappingURL=Exp_jujia.css.map */

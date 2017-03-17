@@ -1,0 +1,79 @@
+.jujian-wrap{
+	width:100%;
+	height:100%;
+	padding-bottom:0.98rem;
+	box-sizing:border-box;
+	.jujia-content{
+		width:100%;
+		padding-top:0.84rem;
+		.quanbu{
+			border-top:1px solid #F3F7F6;
+			background:#fff;
+			dl{
+				width:100%;
+				display:-webkit-flex;
+				padding:0.3rem;
+				box-sizing:border-box;
+				dt{
+					width:0.8rem;
+					height:0.8rem;
+					margin-right:0.3rem;
+					img{
+						width:100%
+					}
+				}
+				dd{
+					-webkit-flex:1;
+					line-height:0.4rem;
+					h6{
+						font-weight:normal;
+						color:#808978;
+					}
+					span{
+						color:#BBBABF;
+						i{
+							font-style:normal;
+						}
+					}
+				}
+		}
+		p{
+			text-align:left;
+			line-height:0.5rem;
+			color:#7F7E83;
+			padding-left:0.3rem;
+			i{
+				font-style:normal;
+				padding:0 0.05rem;
+			}
+			&.eye{
+				line-height:0.6rem;
+				border-top:1px solid #F1F1F1;
+				font-weight:normal;
+				border-bottom:0.13rem solid #F2F3F5;
+				a{
+					margin-right:0.5rem;
+					color:#666;
+					i{
+						font-size:0.3rem;
+						color:#C0C0C8;
+						margin-right:0.2rem;
+					}
+				} 
+				
+			}
+		}
+			.swipers7{
+				width:100%;
+				padding-left:0.2rem;
+				box-sizing:border-box;
+				.swiper-slide{
+					width:40%;
+					img{
+						width:100%;
+					}
+				}
+			}	
+		}
+	}
+}

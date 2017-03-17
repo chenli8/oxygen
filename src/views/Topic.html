@@ -1,0 +1,29 @@
+<div class="Topic-wrap oxygen_wrap">
+	<header ng-include="'src/views/header.html'"></header> 
+	 <footer ng-include="'src/views/footer.html'"></footer>
+	<div class="Topic-view">
+	  <div class="Topic-filter">
+	  	<section class="Topic-filter-top">
+	   	      <h3>分类<i>FILTER</i></h3>
+	   </section>
+	   <section class="Topic-filter-nav">
+	   	 <a ui-sref="whisper({id:item.id})" ng-repeat="item in lists" >
+	   	 	<i ng-class='item.fonts'  ></i>
+	   	 	<span>{{item.title}}</span>
+	   	 </a>
+	   </section>
+	  </div>
+	   <div class="Topic-dark">
+	   	  <section class="Topic-filter-top">
+	   	      <h3>深夜话题<i>FILTER</i></h3>
+	      </section>
+	     <section class="Topic-checkout">
+		     	  <my-tab my-data='list' my-id='div1' my-fn='say("cd")'>
+	              </my-tab>
+	              <ui-view></ui-view>
+	     </section>	
+	   </div>
+	</div>
+	 
+</div>
+ 

@@ -1,0 +1,24 @@
+<div class="service">
+	<div class="service-header">
+		<a href="" ui-sref="Person.perLogin">&#xe604;</a>
+		<h1>氧气客服</h1>
+	</div>
+	<div class="service-content">
+		<ul>
+			<li><img src="src/images/bb_03.png" alt="">常见问题</li>
+			<li><img src="src/images/bb_05.png" alt="">购买须知</li>
+		</ul>
+		<div class="row" ng-repeat="i in input">
+			<div class="col {{i.position}}">
+				<span class="head1"><img ng-src="{{i.img}}" alt=""></span>
+				<p class="btn {{i.bgColor}}">{{i.message}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="service-footer">
+		<img src="src/images/f_14.png" alt="">
+		<input type="text" placeholder="请输入新消息" ng-model="inputMsg">
+		<img src="src/images/f_17.png" alt="">
+		<img src="src/images/f_19.png" alt="" ng-click="addInput(inputMsg)">
+	</div>
+</div>

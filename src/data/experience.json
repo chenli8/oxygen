@@ -1,0 +1,184 @@
+{
+	"banner":[
+		{"bannerSrc":"expb.jpg"},
+		{"bannerSrc":"expb2.jpg"},
+		{"bannerSrc":"expb3.jpg"}
+	],
+	"zhaobei":{
+		"type":["A","B","C","D","E","F","G"],
+		"size":["60","65","70","75","80","85","不限"]
+	},
+	"changjing":[
+		{"id":"1","changjingpic":"exp11_r1_c1.png","title":"居家","xiangq":[{
+			"info":{
+				"tytouxiang":"exp5.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp-jujia1_r1_c1.jpg","exp-jujia1_r1_c3.jpg","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp5.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp-jujia1_r1_c1.jpg","exp-jujia1_r1_c3.jpg","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}
+		]},
+		{"id":"2","changjingpic":"exp11_r1_c3.png","title":"约会","xiangq":[{
+			"info":{
+				"tytouxiang":"exp-yuehui3.jpg",
+				"tyname":"霍莓",
+				"tysxq":["学生","南京","70B"]
+			},
+			"xqtu":["exp-yuehui4_r1_c1.jpg","exp-yuehui4_r1_c3.jpg","exp-yuehui2_r1_c1.jpg","exp-yuehui2_r1_c3.jpg"],
+			"biaoqian":["#居家","#约会","#小清新","#内衣外搭","#热门精选"],
+			"pinpai":"LOVE Stories"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp-yuehui3.jpg",
+				"tyname":"霍莓",
+				"tysxq":["学生","南京","70B"]
+			},
+			"xqtu":["exp-yuehui4_r1_c1.jpg","exp-yuehui4_r1_c3.jpg","exp-yuehui2_r1_c1.jpg","exp-yuehui2_r1_c3.jpg"],
+			"biaoqian":["#居家","#约会","#小清新","#内衣外搭","#热门精选"],
+			"pinpai":"LOVE Stories"
+		}]},
+		{"id":"3","changjingpic":"exp11_r1_c5.png","title":"搭配","xiangq":[{
+			"info":{
+				"tytouxiang":"exp-dapei1.png",
+				"tyname":"董壮壮",
+				"tysxq":["摄影师","深圳","70B"]
+			},
+			"xqtu":["exp-dapei2_r1_c1.png","exp-dapei2_r1_c3.png","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp-dapei1.png",
+				"tyname":"董壮壮",
+				"tysxq":["摄影师","深圳","70B"]
+			},
+			"xqtu":["exp-dapei2_r1_c1.png","exp-dapei2_r1_c3.png","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}]},
+		{"id":"4","changjingpic":"exp11_r3_c1.png","title":"性感","xiangq":[{
+			"info":{
+				"tytouxiang":"exp-xinggan2.jpg",
+				"tyname":"我们现在就走",
+				"tysxq":["毕业生","景德镇市","70D"]
+			},
+			"xqtu":["exp-xinggan1_r1_c1.jpg","exp-xinggan1_r2_c3.jpg","exp-xinggan3_r1_c1.jpg","exp-xinggan3_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp-xinggan2.jpg",
+				"tyname":"我们现在就走",
+				"tysxq":["毕业生","景德镇市","70D"]
+			},
+			"xqtu":["exp-xinggan1_r1_c1.jpg","exp-xinggan1_r2_c3.jpg","exp-xinggan3_r1_c1.jpg","exp-xinggan3_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}]},
+		{"id":"5","changjingpic":"exp11_r3_c3.png","title":"海边","xiangq":[{
+			"info":{
+				"tytouxiang":"exp-haib2.jpg",
+				"tyname":"不等",
+				"tysxq":["传媒","海口","65B"]
+			},
+			"xqtu":["exp-haib1_r1_c1.jpg","exp-haib2_r1_c3.jpg","exp-haib3_r1_c1.jpg","exp-haib3_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp-haib2.jpg",
+				"tyname":"不等",
+				"tysxq":["传媒","海口","65B"]
+			},
+			"xqtu":["exp-haib1_r1_c1.jpg","exp-haib2_r1_c3.jpg","exp-haib3_r1_c1.jpg","exp-haib3_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}]},
+		{"id":"6","changjingpic":"exp11_r3_c5.png","title":"运动","xiangq":[{
+			"info":{
+				"tytouxiang":"exp-yund1.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp-yund4_r1_c1.jpg","exp-yund3.jpg","exp-yund5_r1_c1.jpg","exp-yund5_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp-yund1.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp-yund4_r1_c1.jpg","exp-yund3.jpg","exp-yund5_r1_c1.jpg","exp-yund5_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}]}
+	],
+	"tiyanshi":[
+		{"tiyanpic":"exp16_r1_c1.png","tysname":"十点红指甲","tyssize":"#70A","fensinum":"706","guanzhu":"+关注"},
+		{"tiyanpic":"exp16_r1_c3.png","tysname":"空心袄","tyssize":"#70A","fensinum":"706","guanzhu":"√正在关注"},
+		{"tiyanpic":"exp16_r1_c5.png","tysname":"邓夏","tyssize":"#70A","fensinum":"706","guanzhu":"+关注"},
+		{"tiyanpic":"exp16_r1_c1.png","tysname":"十点红指甲","tyssize":"#70A","fensinum":"706","guanzhu":"+关注"},
+		{"tiyanpic":"exp16_r1_c3.png","tysname":"空心袄","tyssize":"#70A","fensinum":"706","guanzhu":"√正在关注"},
+		{"tiyanpic":"exp16_r1_c5.png","tysname":"邓夏","tyssize":"#70A","fensinum":"706","guanzhu":"+关注"}
+
+	],
+	"tiyanbaogao":[
+		{
+			"info":{
+				"tytouxiang":"exp5.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp13_r1_c1.jpg","exp13_r1_c3.jpg","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		},
+		{
+			"info":{
+				"tytouxiang":"exp5.jpg",
+				"tyname":"民间超模邹大炮",
+				"tysxq":["游戏设计师","杭州","70C"]
+			},
+			"xqtu":["exp13_r1_c1.jpg","exp13_r1_c3.jpg","exp12_r1_c1.jpg","exp12_r1_c3.jpg"],
+			"biaoqian":["#卧室","#吊袜带","#新娘","#约会","#热门精选","#眼罩"],
+			"pinpai":"pleasure slate"
+		}
+	],
+	"guanzhu":[
+		{
+			"propic":"exp14.png",
+			"proname":"Von Follies by Dita Von Teese",
+			"proxq":"Savior-Faire黑底蕾丝1/4薄垫",
+			"prosize":"75B",
+			"propj":"特别美，一套更棒。每个女生都应该有件这样的内衣",
+			"tyname":"十点红指甲"
+		},
+		{
+			"propic":"exp14.png",
+			"proname":"Von Follies by Dita Von Teese",
+			"proxq":"Savior-Faire黑底蕾丝1/4薄垫",
+			"prosize":"75B",
+			"propj":"特别美，一套更棒。每个女生都应该有件这样的内衣",
+			"tyname":"十点红指甲"
+		}
+	]
+	
+}
